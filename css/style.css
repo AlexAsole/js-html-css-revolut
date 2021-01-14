@@ -9,16 +9,18 @@
 .between{
   justify-content: space-between;
 }
+.list-none{
+  list-style: none;
+}
 .nav{
   height: 150px;
   background: #ccc;
 }
 .left-side, .right-side{
-  list-style: none;
   margin-top: 40px;
 }
 ul li {
-  margin: 20px;
+  padding: 20px;
 }
 .btn-menu{
   position: relative;
