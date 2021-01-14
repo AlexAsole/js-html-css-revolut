@@ -28,7 +28,7 @@ img{
   width: 20px;
   height: 40px;
 }
-.menu-container{
+.btn-menu{
   position: relative;
   cursor: pointer;
 }
