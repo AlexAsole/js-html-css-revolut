@@ -1,0 +1,52 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.nav{
+  display: flex;
+  justify-content: space-between;
+  height: 150px;
+  background: #ccc;
+}
+.left-side, .right-side{
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  margin-top: 40px;
+}
+ul li {
+  margin: 20px;
+}
+.btn-menu{
+  position: relative;
+  cursor: pointer;
+}
+.menu{
+  display: none;
+  position: absolute;
+  border: 1px solid #000;
+  background: #fff;
+  transform: translateX(-50%);
+  left: 50%;
+  top: 60px;
+}
+.features{
+  height: 400px;
+  width: 500px;
+}
+.plans{
+  height: 300px;
+  width: 200px;
+}
+.about{
+  height: 500px;
+  width: 200px;
+}
+.help{
+  height: 350px;
+  width: 200px;
+}
+.menu.active{
+  display: block;
+}
