@@ -13,8 +13,10 @@
   list-style: none;
 }
 .nav{
-  height: 150px;
-  background: #ccc;
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 500px;
+  line-height: 40px;
 }
 .left-side, .right-side{
   margin-top: 40px;
@@ -22,19 +24,23 @@
 ul li {
   padding: 20px;
 }
-.btn-menu{
+img{
+  width: 20px;
+  height: 40px;
+}
+.menu-container{
   position: relative;
   cursor: pointer;
 }
 .menu{
   display: none;
   position: absolute;
-  border: 1px solid #000;
+  box-shadow: 5px 5px 10px #ccc;
   background: #fff;
   transform: translateX(-50%);
   left: 50%;
   top: 60px;
 }
 .menu.active{
-  display: block;
+  display: flex;
 }
